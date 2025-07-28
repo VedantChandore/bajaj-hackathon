@@ -1,0 +1,22 @@
+
+myen/
+c
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore output folder (generated content)
+output/
+
+# Ignore data folder (if it contains input PDFs or other confidential files)
+data/
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# Ignore OS files
+.DS_Store
