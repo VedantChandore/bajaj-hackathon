@@ -1,0 +1,6 @@
+cohere
+scikit-learn
+numpy
+python-dotenv
+PyMuPDF
+faiss-cpu
