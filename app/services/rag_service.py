@@ -15,7 +15,7 @@ import google.generativeai as genai
 
 # Configure the Gemini API client
 try:
-    genai.configure(api_key='AIzaSyC0j-L51sodUuYAuY7M-H7Ec0r7NqlRGjg')
+    genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 except AttributeError:
     raise RuntimeError("GOOGLE_API_KEY is not set. Please check your .env file.")
 
